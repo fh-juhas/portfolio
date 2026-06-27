@@ -1,179 +1,214 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Projects — Faked Hasan Juhas</title>
+	<meta name="description" content="Selected projects by Faked Hasan Juhas — full-stack web apps and data analytics dashboards built with ASP.NET, Python, SQL and Power BI." />
 
-		<style>
-			ul.icons {
-		list-style: none;
-		padding: 0;
-		margin: 0;
-		display: flex;
-	}
-	
-	ul.icons li {
-		margin-right: 15px; /* Adjust this value for spacing */
-	}
-	
-	ul.icons li:last-child {
-		margin-right: 0; /* No extra margin on the last item */
-	}
-	
-	ul.icons a {
-		text-decoration: none;
-		color: #333;
-		font-size: 1.5em; /* Adjust icon size */
-	}
-	
-	ul.icons a:hover {
-		color: #007bff; /* Change the hover color if needed */
-	}
-	
-	ul.icons i {
-		margin-right: 5px; /* For better spacing with text */
-	}
-		</style>
-	</head>
-	<body class="is-preload">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<!-- Navbar -->
+	<header class="nav">
+		<div class="container">
+			<a href="index.html" class="nav__brand"><span class="dot"></span>FH&nbsp;Juhas</a>
+			<nav>
+				<ul class="nav__links">
+					<li><a href="index.html">About</a></li>
+					<li><a href="projects.html" class="active">Projects</a></li>
+					<li><a href="others.html">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="nav__right">
+				<a class="icon-btn" href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
+				<a class="icon-btn" href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+				<button class="icon-btn" data-theme-toggle title="Toggle theme"><i data-theme-icon class="bi bi-moon-stars"></i></button>
+				<button class="icon-btn nav__toggle" data-nav-toggle title="Menu"><i class="bi bi-list"></i></button>
+			</div>
+		</div>
+	</header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Faked Hasan Juhas</a>
-					</header>
+	<!-- Page head -->
+	<section class="section" style="padding-top:56px;padding-bottom:8px">
+		<div class="container">
+			<div class="section__head reveal">
+				<span class="eyebrow">Portfolio</span>
+				<h2>Projects I've built</h2>
+				<p>A mix of full-stack web applications and data analytics dashboards — from API-driven systems to interactive Power BI reports.</p>
+			</div>
+		</div>
+	</section>
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul class="links">
-						<li><a href="index.html">About Me</a></li>
-						<li class="active"><a href="projects.html">Projects</a></li>
-						<li><a href="others.html">Let’s Collaborate</a></li>
-					</ul>
-					<ul class="icons">
-						<li><a href="https://github.com/fh-juhas" target="_blank"><i class="bi bi-github"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/fh-juhas/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-						<li><a href="https://leetcode.com/u/fh_juhas" target="_blank">
-							<i class="bi bi-code"></i></a>
-						</li>
-						<li><a href="https://x.com/FH_Juhas" target="_blank"> 
-							<i class="bi bi-twitter-x"></i></a>
-						 </li>
-					</ul>
-				</nav>
-				<!-- Main -->
-					<div id="main">
+	<!-- Projects grid -->
+	<section class="section" style="padding-top:24px">
+		<div class="container">
+			<div class="project-grid">
 
-						<section class="posts">
-							<article>
-								<header>
-									<span class="project1"></span>
-									<h2>Blood Management API Project</h2>
-								</header>
-								<a href="https://github.com/fh-juhas/BloodManagement" class="image fit"><img src="images/bloodmanagement.png" alt="" /></a>
-								<p><b>Title: </b>Blood Management System <br>
-									<b>Description:</b> Developed an API-driven web application for managing blood donor information and performing CRUD operations. The app interacts directly with API endpoints on the frontend, enabling smooth data management.<br>
-									<section><b>Technologies Used: </b> <br>
-									<b>Backend:</b> C# (ASP.NET) <br>
-									<b>Frontend:</b> HTML, CSS, jQuery, AJAX <br>
-									<b>Database:</b> MSSQL <br>
-									<b>Tools: </b> Visual Studio, SQL Server Management Studio
-								</p>
-							</section>
-							</article>
-							<article>
-								<header>
-									<h2>Material Selection</h2>
-								</header>
-								<a href="https://www.materialselection.somee.com" class="image fit"><img src="images/material.jpg" alt="" /></a>
-								<p><b>Title: </b> Material Selection System for Engineering Design <br>
-									<b>Description:</b> Developed a web application that assists engineers in selecting the optimal materials for design projects based on multiple constraints (e.g., mechanical load, thermal properties, weight) and objectives (e.g., minimizing mass, maximizing stiffness). The system uses an advanced filtering process based on user inputs and displays a comparison chart of material properties for better decision-making. (This is currently on live).
-									<section><b>Technologies Used: </b> <br>
-										<b>Backend:</b> C# (ASP.NET) <br>
-										<b>Frontend:</b> HTML, CSS, jQuery, AJAX <br>
-										<b>Database:</b> MSSQL <br>
-										<b>Data Visualization:</b> Plotly for charts,<br>Tabulator for tabular data display<br>
-										<b>Tools: </b> Visual Studio, SQL Server Management Studio
-									</p>
-								</section>
-							
-								</article>
-							<article>
-								<header>
-									<h2>Chicago Crime Data Analysis</h2>
-								</header>
-								<a href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" class="image fit"><img src="images/chicago.jpg" alt="" /></a>
-								<p><b>Title: </b> Chicago Crime Analysis Using Python and SQLite
-									<b>Description:</b> Conducted an extensive analysis of the Chicago crime dataset to uncover trends and insights. This project involved querying crime records to determine total crimes, assess community socio-economic factors, and identify crime patterns involving minors and schools. Utilized advanced SQL queries and sub-queries to analyze community hardship and poverty rates, ultimately providing data-driven recommendations for crime prevention strategies.</p>
-								
-							</article>
-							 <article>
-								<header>
-									<h2>SQL Data Analysis on Sales and Production</h2>
-								</header>
-								<a href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" class="image fit"><img src="images/sql.png" alt="" /></a>
-								<p><b>Title: </b> SQL Data Analysis on Sales and Production
-									<b>Description:</b> In this project, I conducted comprehensive data analysis on both sales and production datasets using SQL. The analysis involved crafting and executing advanced SQL queries to uncover key insights, such as identifying top-performing stores, most popular products, revenue drivers by category, and average order metrics per customer. These insights provide a data-driven foundation for optimizing business operations and improving strategic decision-making. </p>
-							</article>
-							<article>
-								<header>
-									<h2>Batsman Performance Dashboard - ICC T20 World Cup 2024</h2>
-								</header>
-								<a href="images/t20wc.pdf" class="image fit"><img src="images/t20wc.jpg" alt="ICC T20 World Cup Dashboard" /></a>
-								<p>
-									<b>Title: </b> ICC T20 World Cup 2024 Batsman Performance Analysis<br>
-									<b>Description:</b> This Power BI dashboard provides an in-depth analysis of batsman performance across the 2024 ICC T20 World Cup. The visualizations include insights into runs scored, strike rates, boundary counts, and the number of fifties and hundreds. The dashboard helps cricket analysts and fans to identify top performers and understand key batting metrics.
-								</p>
-							</article>
-							<article>
-								<header>
-									<h2>Olympic Medal and Economic Status Dashboard - 2024</h2>
-								</header>
-								<!-- Link to the PDF or image file -->
-								<a href="images/Olympic2024_Medals&Economic.pdf" class="image fit"><img src="images/olympic2024.jpg" alt="Olympic Medal and Economic Status Dashboard" /></a>
-								<p>
-									<b>Title: </b> 2024 Olympic Medal and Economic Analysis<br>
-									<b>Description:</b> This Power BI dashboard analyzes the relationship between the number of Olympic medals won by each country and their economic status. It highlights key statistics, including medal counts (gold, silver, bronze) for each country, population and GDP comparison, and the correlation between GDP and total medals won. This interactive tool is designed for sports analysts and enthusiasts to understand the impact of economic factors on Olympic performance.
-								</p>
-							</article>
-						</section>
+				<!-- InventoryBase (featured) -->
+				<article class="project project--featured reveal">
+					<a class="project__media" href="http://baseinventory.somee.com/" target="_blank" rel="noopener">
+						<span class="project__tag">Featured · Live</span>
+						<img src="images/inventorybase.png" alt="InventoryBase inventory management system screenshot" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>InventoryBase — Inventory Management System</h3>
+						<p>A full-featured inventory &amp; stock management platform built on a 3-layer clean architecture (Core / Infrastructure / Web). Handles products, purchases, sales, expenses and suppliers with a real-time stock ledger, role-based access, and server-side data tables. Currently deployed and in use.</p>
+						<div class="project__tech">
+							<span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>Identity Auth</span><span>Repository / UoW</span><span>Tabulator</span>
+						</div>
+						<div class="project__links">
+							<a href="http://baseinventory.somee.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+							<a href="https://github.com/fh-juhas/InventoryBase" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						</div>
 					</div>
+				</article>
 
-				<!-- Footer -->
-				<footer id="footer">
-				
-					<section class="split contact">
-						<section class="alt">
-							<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-						</section>
-					</section>
-				</footer>
+				<!-- Blood Management -->
+				<article class="project reveal">
+					<a class="project__media" href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener">
+						<span class="project__tag">Web App</span>
+						<img src="images/bloodmanagement.png" alt="Blood Management System screenshot" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>Blood Management System</h3>
+						<p>An API-driven web application for managing blood donor information with full CRUD operations. The frontend talks directly to API endpoints for smooth, real-time data management.</p>
+						<div class="project__tech">
+							<span>C# / ASP.NET</span><span>jQuery</span><span>AJAX</span><span>MSSQL</span>
+						</div>
+						<div class="project__links">
+							<a href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						</div>
+					</div>
+				</article>
 
-			<!-- Copyright -->
-				<div id="copyright">
-					<ul><li>&copy;Faked Hasan Juhas</li></ul>
+				<!-- Material Selection -->
+				<article class="project reveal">
+					<a class="project__media" href="https://www.materialselection.somee.com" target="_blank" rel="noopener">
+						<span class="project__tag">Live</span>
+						<img src="images/material.jpg" alt="Material Selection System screenshot" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>Material Selection System</h3>
+						<p>A web app that helps engineers pick optimal materials for design projects based on constraints (load, thermal, weight) and objectives (min mass, max stiffness), with comparison charts for better decisions.</p>
+						<div class="project__tech">
+							<span>C# / ASP.NET</span><span>Plotly</span><span>Tabulator</span><span>MSSQL</span>
+						</div>
+						<div class="project__links">
+							<a href="https://www.materialselection.somee.com" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- Chicago Crime -->
+				<article class="project reveal">
+					<a class="project__media" href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener">
+						<span class="project__tag">Data Analysis</span>
+						<img src="images/chicago.jpg" alt="Chicago crime data analysis" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>Chicago Crime Data Analysis</h3>
+						<p>An extensive analysis of the Chicago crime dataset using advanced SQL queries and sub-queries — uncovering crime trends, socio-economic correlations, and data-driven prevention recommendations.</p>
+						<div class="project__tech">
+							<span>Python</span><span>SQLite</span><span>SQL</span>
+						</div>
+						<div class="project__links">
+							<a href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- SQL Sales -->
+				<article class="project reveal">
+					<a class="project__media" href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener">
+						<span class="project__tag">Data Analysis</span>
+						<img src="images/sql.png" alt="SQL sales and production analysis" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>SQL Data Analysis — Sales &amp; Production</h3>
+						<p>Comprehensive analysis of sales and production datasets via advanced SQL — surfacing top stores, popular products, revenue drivers by category, and per-customer order metrics to inform strategy.</p>
+						<div class="project__tech">
+							<span>SQL</span><span>Data Modeling</span>
+						</div>
+						<div class="project__links">
+							<a href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- T20 World Cup -->
+				<article class="project reveal">
+					<a class="project__media" href="images/t20wc.pdf" target="_blank" rel="noopener">
+						<span class="project__tag">Power BI</span>
+						<img src="images/t20wc.jpg" alt="ICC T20 World Cup 2024 batsman dashboard" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>ICC T20 World Cup 2024 — Batsman Dashboard</h3>
+						<p>An in-depth Power BI dashboard analyzing batsman performance across the 2024 ICC T20 World Cup — runs, strike rates, boundaries, fifties and hundreds — helping analysts spot top performers.</p>
+						<div class="project__tech">
+							<span>Power BI</span><span>DAX</span><span>Data Viz</span>
+						</div>
+						<div class="project__links">
+							<a href="images/t20wc.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> View Report</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- Olympic -->
+				<article class="project reveal">
+					<a class="project__media" href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener">
+						<span class="project__tag">Power BI</span>
+						<img src="images/olympic2024.jpg" alt="Olympic 2024 medals and economic dashboard" loading="lazy" />
+					</a>
+					<div class="project__body">
+						<h3>2024 Olympic Medals &amp; Economic Analysis</h3>
+						<p>A Power BI dashboard exploring the link between Olympic medal counts and national economic status — medals by country, population/GDP comparisons, and GDP-vs-medals correlation.</p>
+						<div class="project__tech">
+							<span>Power BI</span><span>DAX</span><span>Data Viz</span>
+						</div>
+						<div class="project__links">
+							<a href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> View Report</a>
+						</div>
+					</div>
+				</article>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<section class="section section--alt">
+		<div class="container">
+			<div class="section__head reveal">
+				<h2>Want to see more?</h2>
+				<p>My full code history lives on GitHub — and I'm always happy to walk through any project.</p>
+				<div class="hero__cta" style="justify-content:center;margin-top:1.4rem">
+					<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" class="btn btn--primary"><i class="bi bi-github"></i> View GitHub</a>
+					<a href="others.html" class="btn btn--ghost"><i class="bi bi-send"></i> Get in Touch</a>
 				</div>
 			</div>
+		</div>
+	</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<p>&copy; <span id="year">2026</span> Faked Hasan Juhas. All rights reserved.</p>
+			<div class="socials">
+				<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
+				<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+				<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" title="LeetCode"><i class="bi bi-code-slash"></i></a>
+				<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" title="X"><i class="bi bi-twitter-x"></i></a>
+			</div>
+		</div>
+	</footer>
 
-	</body>
+	<button id="topBtn" title="Back to top"><i class="bi bi-arrow-up"></i></button>
+	<script src="assets/js/app.js"></script>
+</body>
 </html>
