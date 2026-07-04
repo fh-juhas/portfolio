@@ -61,8 +61,7 @@
 	<section class="sec" style="padding-bottom:34px">
 		<div class="container">
 			<div class="sec__head reveal">
-				<p class="q"><span class="kw">SELECT</span> * <span class="kw">FROM</span> projects <span class="kw">ORDER BY</span> featured <span class="kw">DESC</span>, id <span class="kw">ASC</span>;</p>
-				<p class="rs">&rarr; 7 rows returned</p>
+				<p class="q"><span class="kw">SELECT</span> * <span class="kw">FROM</span> projects;</p>
 				<h2>Projects I've built</h2>
 				<p>A mix of full-stack web applications and data analytics dashboards — from API-driven systems to interactive Power BI reports.</p>
 			</div>
@@ -74,136 +73,121 @@
 		<div class="container">
 			<div class="prj-grid">
 
-				<!-- PRJ-001 · InventoryBase (featured) -->
+				<!-- InventoryBase (featured) -->
 				<article class="prj prj--featured reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-001 &middot; featured</span>
-						<span class="st"><span class="dot-live" aria-hidden="true"></span>status: deployed</span>
-					</div>
-					<div class="prj__inner">
-						<a class="prj__media" href="http://baseinventory.somee.com/" target="_blank" rel="noopener" aria-label="Open InventoryBase live demo">
-							<img src="images/inventorybase.png" alt="InventoryBase inventory management system screenshot" loading="lazy" />
-						</a>
-						<div class="prj__body">
-							<h3>InventoryBase — Inventory Management System</h3>
-							<p>A full-featured inventory &amp; stock management platform built on a 3-layer clean architecture (Core / Infrastructure / Web). Handles products, purchases, sales, expenses and suppliers with a real-time stock ledger, role-based access, and server-side data tables. Currently deployed and in use.</p>
-							<p class="prj__deps">deps = [ <span class="tok">ASP.NET Core MVC</span>, <span class="tok">EF Core</span>, <span class="tok">SQL Server</span>, <span class="tok">Identity Auth</span>, <span class="tok">Repository / UoW</span>, <span class="tok">Tabulator</span> ]</p>
-							<div class="prj__links">
-								<a href="http://baseinventory.somee.com/" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-ext"/></svg> Live demo</a>
-								<a href="https://github.com/fh-juhas/InventoryBase" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
-							</div>
+					<a class="prj__media" href="http://baseinventory.somee.com/" target="_blank" rel="noopener" aria-label="Open InventoryBase live demo">
+						<img src="images/inventorybase.png" alt="InventoryBase inventory management system screenshot" loading="lazy" />
+					</a>
+					<div class="prj__body">
+						<span class="prj__flag">Featured</span>
+						<h3>InventoryBase — Inventory Management System</h3>
+						<p>A full-featured inventory &amp; stock management platform built on a 3-layer clean architecture (Core / Infrastructure / Web). Handles products, purchases, sales, expenses and suppliers with a real-time stock ledger, role-based access, and server-side data tables. Currently deployed and in use.</p>
+						<ul class="prj__tags">
+							<li>ASP.NET Core MVC</li><li>EF Core</li><li>SQL Server</li><li>Identity Auth</li><li>Repository / UoW</li><li>Tabulator</li>
+						</ul>
+						<div class="prj__links">
+							<a href="http://baseinventory.somee.com/" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-ext"/></svg> Live demo</a>
+							<a href="https://github.com/fh-juhas/InventoryBase" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-002 · Material Selection -->
+				<!-- Material Selection -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-002</span>
-						<span class="st"><span class="dot-live" aria-hidden="true"></span>status: deployed</span>
-					</div>
-					<a class="prj__media" href="https://www.materialselection.somee.com" target="_blank" rel="noopener" aria-label="Open Material Selection System live demo">
+					<a class="prj__media" href="https://github.com/fh-juhas/MaterialSelection" target="_blank" rel="noopener" aria-label="Open Material Selection System source">
 						<img src="images/material.jpg" alt="Material Selection System screenshot" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>Material Selection System</h3>
 						<p>A web app that helps engineers pick optimal materials for design projects based on constraints (load, thermal, weight) and objectives (min mass, max stiffness), with comparison charts for better decisions.</p>
-						<p class="prj__deps">deps = [ <span class="tok">C# / ASP.NET</span>, <span class="tok">Plotly</span>, <span class="tok">Tabulator</span>, <span class="tok">MSSQL</span> ]</p>
+						<ul class="prj__tags">
+							<li>C# / ASP.NET</li><li>Plotly</li><li>Tabulator</li><li>MSSQL</li>
+						</ul>
 						<div class="prj__links">
-							<a href="https://www.materialselection.somee.com" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-ext"/></svg> Live demo</a>
+							<a href="https://github.com/fh-juhas/MaterialSelection" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-003 · Blood Management -->
+				<!-- Blood Management -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-003</span>
-						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
-					</div>
 					<a class="prj__media" href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener" aria-label="Open Blood Management System source">
 						<img src="images/bloodmanagement.png" alt="Blood Management System screenshot" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>Blood Management System</h3>
 						<p>An API-driven web application for managing blood donor information with full CRUD operations. The frontend talks directly to API endpoints for smooth, real-time data management.</p>
-						<p class="prj__deps">deps = [ <span class="tok">C# / ASP.NET</span>, <span class="tok">jQuery</span>, <span class="tok">AJAX</span>, <span class="tok">MSSQL</span> ]</p>
+						<ul class="prj__tags">
+							<li>C# / ASP.NET</li><li>jQuery</li><li>AJAX</li><li>MSSQL</li>
+						</ul>
 						<div class="prj__links">
 							<a href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-004 · Chicago Crime -->
+				<!-- Chicago Crime -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-004</span>
-						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
-					</div>
 					<a class="prj__media" href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener" aria-label="Open Chicago crime analysis source">
 						<img src="images/chicago.jpg" alt="Chicago crime data analysis" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>Chicago Crime Data Analysis</h3>
 						<p>An extensive analysis of the Chicago crime dataset using advanced SQL queries and sub-queries — uncovering crime trends, socio-economic correlations, and data-driven prevention recommendations.</p>
-						<p class="prj__deps">deps = [ <span class="tok">Python</span>, <span class="tok">SQLite</span>, <span class="tok">SQL</span> ]</p>
+						<ul class="prj__tags">
+							<li>Python</li><li>SQLite</li><li>SQL</li>
+						</ul>
 						<div class="prj__links">
 							<a href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-005 · SQL Sales -->
+				<!-- SQL Sales -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-005</span>
-						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
-					</div>
 					<a class="prj__media" href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener" aria-label="Open SQL sales analysis source">
 						<img src="images/sql.png" alt="SQL sales and production analysis" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>SQL Data Analysis — Sales &amp; Production</h3>
 						<p>Comprehensive analysis of sales and production datasets via advanced SQL — surfacing top stores, popular products, revenue drivers by category, and per-customer order metrics to inform strategy.</p>
-						<p class="prj__deps">deps = [ <span class="tok">SQL</span>, <span class="tok">Data Modeling</span> ]</p>
+						<ul class="prj__tags">
+							<li>SQL</li><li>Data Modeling</li>
+						</ul>
 						<div class="prj__links">
 							<a href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-006 · T20 World Cup -->
+				<!-- T20 World Cup -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-006</span>
-						<span class="st is-doc"><span class="dot-live" aria-hidden="true"></span>status: report</span>
-					</div>
 					<a class="prj__media" href="images/t20wc.pdf" target="_blank" rel="noopener" aria-label="Open T20 World Cup dashboard report">
 						<img src="images/t20wc.jpg" alt="ICC T20 World Cup 2024 batsman dashboard" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>ICC T20 World Cup 2024 — Batsman Dashboard</h3>
 						<p>An in-depth Power BI dashboard analyzing batsman performance across the 2024 ICC T20 World Cup — runs, strike rates, boundaries, fifties and hundreds — helping analysts spot top performers.</p>
-						<p class="prj__deps">deps = [ <span class="tok">Power BI</span>, <span class="tok">DAX</span>, <span class="tok">Data Viz</span> ]</p>
+						<ul class="prj__tags">
+							<li>Power BI</li><li>DAX</li><li>Data Viz</li>
+						</ul>
 						<div class="prj__links">
 							<a href="images/t20wc.pdf" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-doc"/></svg> View report</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- PRJ-007 · Olympic -->
+				<!-- Olympic -->
 				<article class="prj reveal">
-					<div class="prj__bar">
-						<span class="pid">PRJ-007</span>
-						<span class="st is-doc"><span class="dot-live" aria-hidden="true"></span>status: report</span>
-					</div>
 					<a class="prj__media" href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener" aria-label="Open Olympic 2024 dashboard report">
 						<img src="images/olympic2024.jpg" alt="Olympic 2024 medals and economic dashboard" loading="lazy" />
 					</a>
 					<div class="prj__body">
 						<h3>2024 Olympic Medals &amp; Economic Analysis</h3>
 						<p>A Power BI dashboard exploring the link between Olympic medal counts and national economic status — medals by country, population/GDP comparisons, and GDP-vs-medals correlation.</p>
-						<p class="prj__deps">deps = [ <span class="tok">Power BI</span>, <span class="tok">DAX</span>, <span class="tok">Data Viz</span> ]</p>
+						<ul class="prj__tags">
+							<li>Power BI</li><li>DAX</li><li>Data Viz</li>
+						</ul>
 						<div class="prj__links">
 							<a href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-doc"/></svg> View report</a>
 						</div>
