@@ -3,179 +3,233 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Faked Hasan Juhas — Software Engineer & Data Analyst</title>
-	<meta name="description" content="Faked Hasan Juhas — Software Engineer and Data Analyst specializing in web development, SQL, Python and Power BI. Turning data into decisions and ideas into products." />
+	<title>Faked Hasan Juhas — Software Engineer &amp; Data Analyst</title>
+	<meta name="description" content="Faked Hasan Juhas — Software Engineer and Data Analyst in Chittagong, Bangladesh. Full-stack ASP.NET, FastAPI and React Native, backed by deep SQL Server, PostgreSQL and Power BI experience." />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Faked Hasan Juhas — Software Engineer &amp; Data Analyst" />
+	<meta property="og:description" content="Full-stack development and data analytics: ASP.NET, FastAPI, React Native, SQL Server, PostgreSQL, Power BI." />
+	<meta name="theme-color" content="#f2f3f6" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#0e1015" media="(prefers-color-scheme: dark)" />
+	<link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Martian+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
+	<!-- Icon sprite -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+		<symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+		<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+		<symbol id="i-x" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></symbol>
+		<symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+		<symbol id="i-mail" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></symbol>
+		<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+		<symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+		<symbol id="i-download" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></symbol>
+		<symbol id="i-ext" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></symbol>
+		<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+		<symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+		<symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+		<symbol id="i-journal" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+		<symbol id="i-folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+		<symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+	</svg>
+
+	<a class="skip-link" href="#main">Skip to content</a>
+
 	<!-- Navbar -->
 	<header class="nav">
 		<div class="container">
-			<a href="index.html" class="nav__brand"><span class="dot"></span>FH&nbsp;Juhas</a>
-			<nav>
+			<a href="index.html" class="nav__brand">fh_juhas<span class="semi">;</span></a>
+			<nav data-nav-panel aria-label="Main">
 				<ul class="nav__links">
-					<li><a href="index.html" class="active">About</a></li>
+					<li><a href="index.html" class="active" aria-current="page">About</a></li>
 					<li><a href="projects.html">Projects</a></li>
 					<li><a href="others.html">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="nav__right">
-				<a class="icon-btn" href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-				<a class="icon-btn" href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-				<button class="icon-btn" data-theme-toggle title="Toggle theme"><i data-theme-icon class="bi bi-moon-stars"></i></button>
-				<button class="icon-btn nav__toggle" data-nav-toggle title="Menu"><i class="bi bi-list"></i></button>
+				<a class="icon-btn" href="https://github.com/fh-juhas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+				<a class="icon-btn" href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+				<button class="icon-btn" data-theme-toggle aria-label="Toggle theme"><svg class="ic" data-theme-icon><use href="#i-moon"/></svg></button>
+				<button class="icon-btn nav__toggle" data-nav-toggle aria-label="Menu" aria-expanded="false"><svg class="ic"><use href="#i-menu"/></svg></button>
 			</div>
 		</div>
 	</header>
+
+	<main id="main">
 
 	<!-- Hero -->
 	<section class="hero">
 		<div class="container">
 			<div class="hero__grid">
-				<div class="hero__intro reveal">
-					<span class="eyebrow">Software Developer · MBA Candidate</span>
-					<h1>Hi, I'm <span class="grad">Faked Hasan Juhas</span></h1>
-					<p class="hero__role">I build full-stack applications & turn data into <span>business decisions</span>.</p>
-					<p class="hero__lead">Computer Science graduate and current MBA candidate bridging technology and business strategy. I build full-stack ASP.NET & .NET APIs, FastAPI automation, and React Native mobile apps — backed by deep SQL Server / PostgreSQL experience and analytics in Power BI.</p>
+				<div class="hero__intro">
+					<p class="q type-wrap" aria-label="SELECT * FROM engineers WHERE ships = true;"><span class="type"><span class="kw">SELECT</span> * <span class="kw">FROM</span> engineers <span class="kw">WHERE</span> ships = <span class="num">true</span>;</span><span class="caret" aria-hidden="true"></span></p>
+					<p class="rs after-type">&rarr; 1 row returned &middot; 12 ms</p>
+					<h1>I turn data into decisions &amp; ideas into <span class="kw-ink">products</span>.</h1>
+					<p class="hero__lead">Computer Science graduate and current MBA candidate bridging technology and business strategy. I build full-stack ASP.NET &amp; .NET APIs, FastAPI automation, and React Native mobile apps — backed by deep SQL Server / PostgreSQL experience and analytics in Power BI.</p>
 					<div class="hero__cta">
-						<a href="assets/files/Faked_Hasan_Juhas_Resume.pdf" class="btn btn--primary" target="_blank" rel="noopener"><i class="bi bi-file-earmark-arrow-down"></i> Download Résumé</a>
-						<a href="projects.html" class="btn btn--ghost"><i class="bi bi-folder2-open"></i> View My Work</a>
-						<a href="others.html" class="btn btn--ghost"><i class="bi bi-send"></i> Get in Touch</a>
+						<a href="assets/files/Faked_Hasan_Juhas_Resume.pdf" class="btn btn--primary" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-download"/></svg> Download résumé</a>
+						<a href="projects.html" class="btn btn--ghost"><svg class="ic ic--sm"><use href="#i-folder"/></svg> View my work</a>
 					</div>
 					<div class="hero__meta">
-						<span><i class="bi bi-geo-alt"></i> Chittagong, Bangladesh</span>
-						<a href="mailto:fh.juhas@outlook.com"><i class="bi bi-envelope"></i> fh.juhas@outlook.com</a>
-						<a href="tel:+8801611117158"><i class="bi bi-telephone"></i> +880 1611 117158</a>
+						<span><svg class="ic"><use href="#i-pin"/></svg>Chittagong, Bangladesh</span>
+						<a href="mailto:fh.juhas@outlook.com"><svg class="ic"><use href="#i-mail"/></svg>fh.juhas@outlook.com</a>
+						<a href="tel:+8801611117158"><svg class="ic"><use href="#i-phone"/></svg>+880 1611 117158</a>
 					</div>
 				</div>
-				<div class="hero__photo reveal">
-					<img src="images/crop.png" alt="Portrait of Faked Hasan Juhas" />
-					<div class="hero__socials">
-						<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-						<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-						<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" title="LeetCode"><i class="bi bi-code-slash"></i></a>
-						<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" title="X"><i class="bi bi-twitter-x"></i></a>
-					</div>
+
+				<div class="hero__photo">
+					<figure class="record" style="margin:0">
+						<div class="record__bar"><span>table: <b>engineers</b></span><span>row 1 / 1</span></div>
+						<img src="images/crop.png" alt="Portrait of Faked Hasan Juhas" width="480" height="528" />
+						<figcaption class="record__fields">
+							<div class="record__row"><span class="k">name</span><span class="v">Faked Hasan Juhas</span></div>
+							<div class="record__row"><span class="k">role</span><span class="v">Software Developer &middot; Data Analyst</span></div>
+							<div class="record__row"><span class="k">base</span><span class="v">Chittagong, BD</span></div>
+							<div class="record__row"><span class="k">status</span><span class="v ok"><span class="dot-live" aria-hidden="true"></span>Open to opportunities</span></div>
+						</figcaption>
+						<div class="record__socials">
+							<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+							<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+							<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="ic"><use href="#i-code"/></svg></a>
+							<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" aria-label="X"><svg class="ic ic--fill"><use href="#i-x"/></svg></a>
+						</div>
+					</figure>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Stats -->
-	<section class="section">
+	<!-- Aggregates -->
+	<section class="agg-wrap">
 		<div class="container">
-			<div class="stats reveal">
-				<div class="stat"><b>4+</b><span>Roles &amp; internships</span></div>
-				<div class="stat"><b>7+</b><span>Shipped projects</span></div>
-				<div class="stat"><b>12</b><span>Certifications</span></div>
-				<div class="stat"><b>10+</b><span>Tools &amp; languages</span></div>
+			<p class="q reveal" style="margin-bottom:12px"><span class="cmt">-- lifetime aggregates</span></p>
+			<div class="agg reveal">
+				<div><b>4</b><span>roles_held</span></div>
+				<div><b>7<em>+</em></b><span>projects_shipped</span></div>
+				<div><b>12</b><span>certifications</span></div>
+				<div><b>1</b><span>ieee_publications</span></div>
 			</div>
 		</div>
 	</section>
 
 	<!-- About -->
-	<section id="about" class="section section--alt">
+	<section id="about" class="sec sec--tint">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">About Me</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> bio <span class="kw">FROM</span> engineers <span class="kw">WHERE</span> id = <span class="num">1</span>;</p>
+				<p class="rs">&rarr; 1 row returned</p>
 				<h2>Where technology meets business</h2>
 			</div>
-			<p class="about reveal">Computer Science graduate and current MBA candidate with a strong foundation in technology, business strategy, and data-driven decision-making. I'm skilled in Python, ASP.NET and SQL, with extensive experience in PostgreSQL and MS SQL for building efficient, scalable solutions — and proficient in backend development, database optimization, and analytics using tools like Power BI and Matplotlib. Combining technical expertise with business insight, I aim to contribute to roles that connect technology with broader organizational objectives.</p>
+			<p class="about-copy reveal">Computer Science graduate and current MBA candidate with a strong foundation in technology, business strategy, and data-driven decision-making. I'm skilled in <strong>Python, ASP.NET and SQL</strong>, with extensive experience in PostgreSQL and MS SQL for building efficient, scalable solutions — and proficient in backend development, database optimization, and analytics using tools like Power BI and Matplotlib. Combining technical expertise with business insight, I aim to contribute to roles that connect technology with broader organizational objectives.</p>
 		</div>
 	</section>
 
 	<!-- Experience -->
-	<section id="experience" class="section">
+	<section id="experience" class="sec">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Career</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> role, company, highlights <span class="kw">FROM</span> experience <span class="kw">ORDER BY</span> start_date <span class="kw">DESC</span>;</p>
+				<p class="rs">&rarr; 4 rows returned</p>
 				<h2>Experience</h2>
 			</div>
-			<div class="timeline">
-				<div class="tl-item reveal">
-					<h3>Software Developer</h3>
-					<p class="org">Ultimate IT Solution Ltd · Chittagong</p>
-					<span class="when">Sep 2025 — Present</span>
-					<ul class="tl-points">
-						<li>Develop and maintain full-stack ASP.NET web applications and .NET APIs.</li>
-						<li>Build and integrate Python (FastAPI) services for automation and data-driven solutions.</li>
-						<li>Design, optimize, and manage databases using SQL Server.</li>
-						<li>Build cross-platform mobile apps with React Native, integrating REST APIs and backend services.</li>
-					</ul>
-				</div>
-				<div class="tl-item reveal">
-					<h3>Junior Programmer</h3>
-					<p class="org">Genuine Technology &amp; Research Ltd · Chittagong</p>
-					<span class="when">Mar 2024 — Aug 2025</span>
-					<ul class="tl-points">
-						<li>Built automation, ERP and HR modules: payroll, finance, manpower planning, budgeting and workforce management.</li>
-						<li>Implemented salary-processing workflows integrated with attendance and planning systems.</li>
-						<li>Designed and managed databases with SQL Server and PostgreSQL.</li>
-						<li>Performed backtesting and data analysis on historical stock-market datasets (Python, .NET Core, JavaScript, jQuery).</li>
-					</ul>
-				</div>
-				<div class="tl-item reveal">
-					<h3>Project Associate</h3>
-					<p class="org">Quantanite · Remote</p>
-					<span class="when">Feb 2023 — Dec 2023</span>
-					<ul class="tl-points">
-						<li>Performed data processing, content moderation, and data-entry tasks.</li>
-						<li>Reported to supervisors and managers, ensuring workflow efficiency.</li>
-					</ul>
-				</div>
-				<div class="tl-item reveal">
-					<h3>Teaching Assistant</h3>
-					<p class="org">International Islamic University Chittagong</p>
-					<span class="when">Jul 2022 — Dec 2022</span>
-					<ul class="tl-points">
-						<li>Assisted faculty with academic activities and classroom management.</li>
-						<li>Supervised students, conducted lab classes, and evaluated lab reports and assignments.</li>
-					</ul>
-				</div>
+			<div class="rows">
+				<article class="xp reveal">
+					<div class="xp__when">2025-09 &rarr; <span class="now">present</span></div>
+					<div>
+						<h3>Software Developer</h3>
+						<p class="org">Ultimate IT Solution Ltd &middot; Chittagong</p>
+						<ul>
+							<li>Develop and maintain full-stack ASP.NET web applications and .NET APIs.</li>
+							<li>Build and integrate Python (FastAPI) services for automation and data-driven solutions.</li>
+							<li>Design, optimize, and manage databases using SQL Server.</li>
+							<li>Build cross-platform mobile apps with React Native, integrating REST APIs and backend services.</li>
+						</ul>
+					</div>
+				</article>
+				<article class="xp reveal">
+					<div class="xp__when">2024-03 &rarr; 2025-08</div>
+					<div>
+						<h3>Junior Programmer</h3>
+						<p class="org">Genuine Technology &amp; Research Ltd &middot; Chittagong</p>
+						<ul>
+							<li>Built automation, ERP and HR modules: payroll, finance, manpower planning, budgeting and workforce management.</li>
+							<li>Implemented salary-processing workflows integrated with attendance and planning systems.</li>
+							<li>Designed and managed databases with SQL Server and PostgreSQL.</li>
+							<li>Performed backtesting and data analysis on historical stock-market datasets (Python, .NET Core, JavaScript, jQuery).</li>
+						</ul>
+					</div>
+				</article>
+				<article class="xp reveal">
+					<div class="xp__when">2023-02 &rarr; 2023-12</div>
+					<div>
+						<h3>Project Associate</h3>
+						<p class="org">Quantanite &middot; Remote</p>
+						<ul>
+							<li>Performed data processing, content moderation, and data-entry tasks.</li>
+							<li>Reported to supervisors and managers, ensuring workflow efficiency.</li>
+						</ul>
+					</div>
+				</article>
+				<article class="xp reveal">
+					<div class="xp__when">2022-07 &rarr; 2022-12</div>
+					<div>
+						<h3>Teaching Assistant</h3>
+						<p class="org">International Islamic University Chittagong</p>
+						<ul>
+							<li>Assisted faculty with academic activities and classroom management.</li>
+							<li>Supervised students, conducted lab classes, and evaluated lab reports and assignments.</li>
+						</ul>
+					</div>
+				</article>
 			</div>
 		</div>
 	</section>
 
 	<!-- Education -->
-	<section id="education" class="section section--alt">
+	<section id="education" class="sec sec--tint">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Academics</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> degree, institution <span class="kw">FROM</span> education <span class="kw">ORDER BY</span> year <span class="kw">DESC</span>;</p>
+				<p class="rs">&rarr; 2 rows returned</p>
 				<h2>Education</h2>
 			</div>
-			<div class="timeline">
-				<div class="tl-item reveal">
-					<h3>Master of Business Administration (MBA) — In Progress</h3>
-					<p class="org">University of Chittagong · Major: OSCM</p>
-					<span class="when">2024 — Present</span>
-				</div>
-				<div class="tl-item reveal">
-					<h3>B.Sc. in Computer Science &amp; Engineering</h3>
-					<p class="org">International Islamic University Chittagong</p>
-					<span class="when">2023 · CGPA 3.499</span>
-				</div>
+			<div class="rows">
+				<article class="xp reveal">
+					<div class="xp__when">2024 &rarr; <span class="now">present</span></div>
+					<div>
+						<h3>Master of Business Administration (MBA)</h3>
+						<p class="org">University of Chittagong &middot; Major: Operations &amp; Supply Chain Management</p>
+					</div>
+				</article>
+				<article class="xp reveal">
+					<div class="xp__when">2023 &middot; CGPA 3.499</div>
+					<div>
+						<h3>B.Sc. in Computer Science &amp; Engineering</h3>
+						<p class="org">International Islamic University Chittagong</p>
+					</div>
+				</article>
 			</div>
 		</div>
 	</section>
 
 	<!-- Publication -->
-	<section id="publication" class="section">
+	<section id="publication" class="sec">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Research</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> * <span class="kw">FROM</span> publications <span class="kw">WHERE</span> venue = <span class="str">'IEEE'</span>;</p>
+				<p class="rs">&rarr; 1 row returned</p>
 				<h2>Publication</h2>
 			</div>
 			<div class="pub reveal">
-				<i class="bi bi-journal-text"></i>
+				<div class="pub__ic"><svg class="ic"><use href="#i-journal"/></svg></div>
 				<div>
 					<h3>A Hybrid Classification Technique Using Belief Rule-Based Semi-Supervised Learning</h3>
-					<p class="pub__meta">Published in <strong>IEEE</strong> · March 2023</p>
+					<p class="pub__meta">venue: <span class="str">'IEEE'</span> &middot; published: 2023-03</p>
 					<p>A hybrid machine-learning approach combining Belief Rule-Based reasoning with semi-supervised learning to improve classification accuracy under limited labelled data.</p>
 				</div>
 			</div>
@@ -183,142 +237,161 @@
 	</section>
 
 	<!-- Skills -->
-	<section id="skills" class="section section--alt">
+	<section id="skills" class="sec sec--tint">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Toolkit</span>
-				<h2>Skills &amp; Technologies</h2>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> category, items <span class="kw">FROM</span> skills;</p>
+				<p class="rs">&rarr; 4 rows returned</p>
+				<h2>Skills &amp; technologies</h2>
 				<p>The languages and tools I reach for to build and analyze.</p>
 			</div>
-			<div class="skill-grid">
-				<div class="skill-card reveal">
-					<h3><i class="bi bi-code-slash"></i> Programming Languages</h3>
-					<div class="chips">
-						<span class="chip">Python</span><span class="chip">SQL</span><span class="chip">C</span>
-						<span class="chip">C++</span><span class="chip">C#</span><span class="chip">JavaScript</span>
-						<span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">LaTeX</span>
-					</div>
+			<div class="arrs reveal">
+				<div class="arr">
+					<span class="arr__k">languages</span>
+					<span class="arr__v">[ <span class="tok">Python</span>, <span class="tok">SQL</span>, <span class="tok">C</span>, <span class="tok">C++</span>, <span class="tok">C#</span>, <span class="tok">JavaScript</span>, <span class="tok">HTML</span>, <span class="tok">CSS</span>, <span class="tok">LaTeX</span> ]</span>
 				</div>
-				<div class="skill-card reveal">
-					<h3><i class="bi bi-database"></i> Databases</h3>
-					<div class="chips">
-						<span class="chip">MSSQL</span><span class="chip">PostgreSQL</span><span class="chip">MySQL</span>
-						<span class="chip">SQLite3</span><span class="chip">Oracle</span>
-					</div>
+				<div class="arr">
+					<span class="arr__k">databases</span>
+					<span class="arr__v">[ <span class="tok">MS SQL Server</span>, <span class="tok">PostgreSQL</span>, <span class="tok">MySQL</span>, <span class="tok">SQLite3</span>, <span class="tok">Oracle</span> ]</span>
 				</div>
-				<div class="skill-card reveal">
-					<h3><i class="bi bi-tools"></i> Tools &amp; Frameworks</h3>
-					<div class="chips">
-						<span class="chip">ASP.NET</span><span class="chip">FastAPI</span><span class="chip">React Native</span>
-						<span class="chip">Power BI</span><span class="chip">Pandas</span><span class="chip">Matplotlib</span>
-						<span class="chip">Docker</span><span class="chip">Git</span><span class="chip">AJAX</span>
-						<span class="chip">jQuery</span><span class="chip">Tabulator</span>
-					</div>
+				<div class="arr">
+					<span class="arr__k">frameworks_tools</span>
+					<span class="arr__v">[ <span class="tok">ASP.NET</span>, <span class="tok">FastAPI</span>, <span class="tok">React Native</span>, <span class="tok">Power BI</span>, <span class="tok">Pandas</span>, <span class="tok">Matplotlib</span>, <span class="tok">Docker</span>, <span class="tok">Git</span>, <span class="tok">AJAX</span>, <span class="tok">jQuery</span>, <span class="tok">Tabulator</span> ]</span>
 				</div>
-				<div class="skill-card reveal">
-					<h3><i class="bi bi-window-stack"></i> Environments &amp; Office</h3>
-					<div class="chips">
-						<span class="chip">VS Code</span><span class="chip">Visual Studio</span><span class="chip">PyCharm</span>
-						<span class="chip">Jupyter</span><span class="chip">SSMS</span><span class="chip">Code::Blocks</span>
-						<span class="chip">MS Office</span><span class="chip">Google Workspace</span>
-					</div>
+				<div class="arr">
+					<span class="arr__k">environments</span>
+					<span class="arr__v">[ <span class="tok">VS Code</span>, <span class="tok">Visual Studio</span>, <span class="tok">PyCharm</span>, <span class="tok">Jupyter</span>, <span class="tok">SSMS</span>, <span class="tok">Code::Blocks</span>, <span class="tok">MS Office</span>, <span class="tok">Google Workspace</span> ]</span>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Certifications -->
-	<section id="certifications" class="section">
+	<section id="certifications" class="sec">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Credentials</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> title, issuer, issued <span class="kw">FROM</span> certifications <span class="kw">ORDER BY</span> issued <span class="kw">DESC</span>;</p>
+				<p class="rs">&rarr; 12 rows returned</p>
 				<h2>Certifications</h2>
 			</div>
-			<div class="cert-grid">
-				<a class="cert reveal" href="https://www.udemy.com/certificate/UC-e2f297e2-df7e-4d89-8115-664ddb28759d/" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>.NET Core MVC — The Complete Guide 2024 [E-commerce]<small>Udemy · Nov 2024</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/M5MW54828D9E" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>The Structured Query Language (SQL)<small>Coursera · Apr 2024</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/FS8ZNSE8U9MA" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>HTML, CSS &amp; JavaScript for Web Developers<small>Coursera · Apr 2024</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/5TKAB6D3DRLK" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Databases &amp; SQL for Data Science with Python<small>Coursera · Jan 2024</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/PZXYW85PT35J" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Python for Data Science, AI &amp; Development<small>Coursera · Sep 2023</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/certificate/7LS5CKX2YSNA" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Data Visualization &amp; Dashboards with Excel and Cognos<small>Coursera · Jul 2023</small></span>
-				</a>
-				<div class="cert reveal">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Excel Basics for Data Analysis<small>Coursera · Jul 2023</small></span>
-				</div>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/GVGKXHJCL5WN" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Introduction to Data Analysis using Microsoft Excel<small>Coursera · May 2023</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/MHJACQ44E6E8" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Using Python to Access Web Data<small>Coursera · Apr 2022</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.udemy.com/certificate/UC-8f8a9b1d-65d9-4c87-8606-36bdc392db91/" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Beginner's Guide to Cyber Security<small>Udemy · Aug 2021</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/certificate/6GGU4X2CEJ9W" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Python Data Structures<small>Coursera · May 2021</small></span>
-				</a>
-				<a class="cert reveal" href="https://www.coursera.org/account/accomplishments/verify/7NSMDLDTZDMS" target="_blank" rel="noopener">
-					<i class="bi bi-patch-check-fill"></i>
-					<span>Programming for Everybody (Getting Started with Python)<small>Coursera · Apr 2021</small></span>
-				</a>
+			<div class="tbl-wrap reveal">
+				<table class="tbl">
+					<thead>
+						<tr><th>id</th><th>certification</th><th>issuer</th><th>issued</th><th aria-label="Link"></th></tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="id-cell">01</td>
+							<td class="title-cell"><a href="https://www.udemy.com/certificate/UC-e2f297e2-df7e-4d89-8115-664ddb28759d/" target="_blank" rel="noopener">.NET Core MVC — The Complete Guide 2024 [E-commerce]</a></td>
+							<td class="mono">Udemy</td><td class="mono">2024-11</td>
+							<td class="link-cell"><a href="https://www.udemy.com/certificate/UC-e2f297e2-df7e-4d89-8115-664ddb28759d/" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">02</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/M5MW54828D9E" target="_blank" rel="noopener">The Structured Query Language (SQL)</a></td>
+							<td class="mono">Coursera</td><td class="mono">2024-04</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/M5MW54828D9E" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">03</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/FS8ZNSE8U9MA" target="_blank" rel="noopener">HTML, CSS &amp; JavaScript for Web Developers</a></td>
+							<td class="mono">Coursera</td><td class="mono">2024-04</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/FS8ZNSE8U9MA" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">04</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/5TKAB6D3DRLK" target="_blank" rel="noopener">Databases &amp; SQL for Data Science with Python</a></td>
+							<td class="mono">Coursera</td><td class="mono">2024-01</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/5TKAB6D3DRLK" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">05</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/PZXYW85PT35J" target="_blank" rel="noopener">Python for Data Science, AI &amp; Development</a></td>
+							<td class="mono">Coursera</td><td class="mono">2023-09</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/PZXYW85PT35J" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">06</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/certificate/7LS5CKX2YSNA" target="_blank" rel="noopener">Data Visualization &amp; Dashboards with Excel and Cognos</a></td>
+							<td class="mono">Coursera</td><td class="mono">2023-07</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/certificate/7LS5CKX2YSNA" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">07</td>
+							<td class="title-cell">Excel Basics for Data Analysis</td>
+							<td class="mono">Coursera</td><td class="mono">2023-07</td>
+							<td class="link-cell"><span>—</span></td>
+						</tr>
+						<tr>
+							<td class="id-cell">08</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/GVGKXHJCL5WN" target="_blank" rel="noopener">Introduction to Data Analysis using Microsoft Excel</a></td>
+							<td class="mono">Coursera</td><td class="mono">2023-05</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/GVGKXHJCL5WN" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">09</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/MHJACQ44E6E8" target="_blank" rel="noopener">Using Python to Access Web Data</a></td>
+							<td class="mono">Coursera</td><td class="mono">2022-04</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/MHJACQ44E6E8" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">10</td>
+							<td class="title-cell"><a href="https://www.udemy.com/certificate/UC-8f8a9b1d-65d9-4c87-8606-36bdc392db91/" target="_blank" rel="noopener">Beginner's Guide to Cyber Security</a></td>
+							<td class="mono">Udemy</td><td class="mono">2021-08</td>
+							<td class="link-cell"><a href="https://www.udemy.com/certificate/UC-8f8a9b1d-65d9-4c87-8606-36bdc392db91/" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">11</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/certificate/6GGU4X2CEJ9W" target="_blank" rel="noopener">Python Data Structures</a></td>
+							<td class="mono">Coursera</td><td class="mono">2021-05</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/certificate/6GGU4X2CEJ9W" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+						<tr>
+							<td class="id-cell">12</td>
+							<td class="title-cell"><a href="https://www.coursera.org/account/accomplishments/verify/7NSMDLDTZDMS" target="_blank" rel="noopener">Programming for Everybody (Getting Started with Python)</a></td>
+							<td class="mono">Coursera</td><td class="mono">2021-04</td>
+							<td class="link-cell"><a href="https://www.coursera.org/account/accomplishments/verify/7NSMDLDTZDMS" target="_blank" rel="noopener" aria-label="Open certificate"><svg class="ic ic--sm"><use href="#i-ext"/></svg></a></td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
-			<p style="text-align:center;margin-top:28px">
-				<a class="btn btn--ghost" href="https://www.linkedin.com/in/fh-juhas/details/certifications/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> View all on LinkedIn</a>
+			<p class="tbl-foot reveal">
+				<a class="btn btn--ghost" href="https://www.linkedin.com/in/fh-juhas/details/certifications/" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-linkedin"/></svg> View all on LinkedIn</a>
 			</p>
 		</div>
 	</section>
 
 	<!-- CTA -->
-	<section class="section section--alt">
+	<section class="sec sec--tint cta-band">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Let's build something</span>
+			<div class="sec__head reveal">
+				<p class="q" style="text-align:center"><span class="cmt">-- next steps</span></p>
 				<h2>Open to new opportunities</h2>
 				<p>Have a role, a project, or just want to chat? I'd love to hear from you.</p>
-				<div class="hero__cta" style="justify-content:center;margin-top:1.4rem">
-					<a href="others.html" class="btn btn--primary"><i class="bi bi-send"></i> Contact Me</a>
-					<a href="projects.html" class="btn btn--ghost"><i class="bi bi-folder2-open"></i> See Projects</a>
+				<div class="hero__cta">
+					<a href="others.html" class="btn btn--primary"><svg class="ic ic--sm"><use href="#i-send"/></svg> Contact me</a>
+					<a href="projects.html" class="btn btn--ghost"><svg class="ic ic--sm"><use href="#i-folder"/></svg> See projects</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	</main>
+
 	<!-- Footer -->
 	<footer class="footer">
 		<div class="container">
-			<p>&copy; <span id="year">2026</span> Faked Hasan Juhas. All rights reserved.</p>
+			<p class="footer__log">-- &copy; <span data-year>2026</span> Faked Hasan Juhas &middot; Chittagong, BD &middot; all queries welcome</p>
 			<div class="socials">
-				<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-				<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-				<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" title="LeetCode"><i class="bi bi-code-slash"></i></a>
-				<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" title="X"><i class="bi bi-twitter-x"></i></a>
+				<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+				<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+				<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="ic"><use href="#i-code"/></svg></a>
+				<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" aria-label="X"><svg class="ic ic--fill"><use href="#i-x"/></svg></a>
 			</div>
+			<p class="footer__colophon">Set in Bricolage Grotesque, Hanken Grotesk &amp; Martian Mono. Hand-coded — no frameworks, no trackers.</p>
 		</div>
 	</footer>
 
-	<button id="topBtn" title="Back to top"><i class="bi bi-arrow-up"></i></button>
 	<script src="assets/js/app.js"></script>
 </body>
 </html>

@@ -5,40 +5,64 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Projects — Faked Hasan Juhas</title>
 	<meta name="description" content="Selected projects by Faked Hasan Juhas — full-stack web apps and data analytics dashboards built with ASP.NET, Python, SQL and Power BI." />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Projects — Faked Hasan Juhas" />
+	<meta property="og:description" content="Full-stack web applications and data analytics dashboards: ASP.NET, Python, SQL, Power BI." />
+	<meta name="theme-color" content="#f2f3f6" media="(prefers-color-scheme: light)" />
+	<meta name="theme-color" content="#0e1015" media="(prefers-color-scheme: dark)" />
+	<link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700&display=swap" rel="stylesheet">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Martian+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 	<link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
+	<!-- Icon sprite -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+		<symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></symbol>
+		<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4V9h4v1.5A6 6 0 0 1 16 8z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+		<symbol id="i-x" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></symbol>
+		<symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+		<symbol id="i-ext" viewBox="0 0 24 24"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></symbol>
+		<symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></symbol>
+		<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></symbol>
+		<symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></symbol>
+		<symbol id="i-menu" viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></symbol>
+		<symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+	</svg>
+
+	<a class="skip-link" href="#main">Skip to content</a>
+
 	<!-- Navbar -->
 	<header class="nav">
 		<div class="container">
-			<a href="index.html" class="nav__brand"><span class="dot"></span>FH&nbsp;Juhas</a>
-			<nav>
+			<a href="index.html" class="nav__brand">fh_juhas<span class="semi">;</span></a>
+			<nav data-nav-panel aria-label="Main">
 				<ul class="nav__links">
 					<li><a href="index.html">About</a></li>
-					<li><a href="projects.html" class="active">Projects</a></li>
+					<li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
 					<li><a href="others.html">Contact</a></li>
 				</ul>
 			</nav>
 			<div class="nav__right">
-				<a class="icon-btn" href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-				<a class="icon-btn" href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-				<button class="icon-btn" data-theme-toggle title="Toggle theme"><i data-theme-icon class="bi bi-moon-stars"></i></button>
-				<button class="icon-btn nav__toggle" data-nav-toggle title="Menu"><i class="bi bi-list"></i></button>
+				<a class="icon-btn" href="https://github.com/fh-juhas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+				<a class="icon-btn" href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+				<button class="icon-btn" data-theme-toggle aria-label="Toggle theme"><svg class="ic" data-theme-icon><use href="#i-moon"/></svg></button>
+				<button class="icon-btn nav__toggle" data-nav-toggle aria-label="Menu" aria-expanded="false"><svg class="ic"><use href="#i-menu"/></svg></button>
 			</div>
 		</div>
 	</header>
 
+	<main id="main">
+
 	<!-- Page head -->
-	<section class="section" style="padding-top:56px;padding-bottom:8px">
+	<section class="sec" style="padding-bottom:34px">
 		<div class="container">
-			<div class="section__head reveal">
-				<span class="eyebrow">Portfolio</span>
+			<div class="sec__head reveal">
+				<p class="q"><span class="kw">SELECT</span> * <span class="kw">FROM</span> projects <span class="kw">ORDER BY</span> featured <span class="kw">DESC</span>, id <span class="kw">ASC</span>;</p>
+				<p class="rs">&rarr; 7 rows returned</p>
 				<h2>Projects I've built</h2>
 				<p>A mix of full-stack web applications and data analytics dashboards — from API-driven systems to interactive Power BI reports.</p>
 			</div>
@@ -46,133 +70,142 @@
 	</section>
 
 	<!-- Projects grid -->
-	<section class="section" style="padding-top:24px">
+	<section class="sec" style="padding-top:0">
 		<div class="container">
-			<div class="project-grid">
+			<div class="prj-grid">
 
-				<!-- InventoryBase (featured) -->
-				<article class="project project--featured reveal">
-					<a class="project__media" href="http://baseinventory.somee.com/" target="_blank" rel="noopener">
-						<span class="project__tag">Featured · Live</span>
-						<img src="images/inventorybase.png" alt="InventoryBase inventory management system screenshot" loading="lazy" />
-					</a>
-					<div class="project__body">
-						<h3>InventoryBase — Inventory Management System</h3>
-						<p>A full-featured inventory &amp; stock management platform built on a 3-layer clean architecture (Core / Infrastructure / Web). Handles products, purchases, sales, expenses and suppliers with a real-time stock ledger, role-based access, and server-side data tables. Currently deployed and in use.</p>
-						<div class="project__tech">
-							<span>ASP.NET Core MVC</span><span>EF Core</span><span>SQL Server</span><span>Identity Auth</span><span>Repository / UoW</span><span>Tabulator</span>
-						</div>
-						<div class="project__links">
-							<a href="http://baseinventory.somee.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
-							<a href="https://github.com/fh-juhas/InventoryBase" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+				<!-- PRJ-001 · InventoryBase (featured) -->
+				<article class="prj prj--featured reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-001 &middot; featured</span>
+						<span class="st"><span class="dot-live" aria-hidden="true"></span>status: deployed</span>
+					</div>
+					<div class="prj__inner">
+						<a class="prj__media" href="http://baseinventory.somee.com/" target="_blank" rel="noopener" aria-label="Open InventoryBase live demo">
+							<img src="images/inventorybase.png" alt="InventoryBase inventory management system screenshot" loading="lazy" />
+						</a>
+						<div class="prj__body">
+							<h3>InventoryBase — Inventory Management System</h3>
+							<p>A full-featured inventory &amp; stock management platform built on a 3-layer clean architecture (Core / Infrastructure / Web). Handles products, purchases, sales, expenses and suppliers with a real-time stock ledger, role-based access, and server-side data tables. Currently deployed and in use.</p>
+							<p class="prj__deps">deps = [ <span class="tok">ASP.NET Core MVC</span>, <span class="tok">EF Core</span>, <span class="tok">SQL Server</span>, <span class="tok">Identity Auth</span>, <span class="tok">Repository / UoW</span>, <span class="tok">Tabulator</span> ]</p>
+							<div class="prj__links">
+								<a href="http://baseinventory.somee.com/" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-ext"/></svg> Live demo</a>
+								<a href="https://github.com/fh-juhas/InventoryBase" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
+							</div>
 						</div>
 					</div>
 				</article>
 
-				<!-- Blood Management -->
-				<article class="project reveal">
-					<a class="project__media" href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener">
-						<span class="project__tag">Web App</span>
-						<img src="images/bloodmanagement.png" alt="Blood Management System screenshot" loading="lazy" />
-					</a>
-					<div class="project__body">
-						<h3>Blood Management System</h3>
-						<p>An API-driven web application for managing blood donor information with full CRUD operations. The frontend talks directly to API endpoints for smooth, real-time data management.</p>
-						<div class="project__tech">
-							<span>C# / ASP.NET</span><span>jQuery</span><span>AJAX</span><span>MSSQL</span>
-						</div>
-						<div class="project__links">
-							<a href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
-						</div>
+				<!-- PRJ-002 · Material Selection -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-002</span>
+						<span class="st"><span class="dot-live" aria-hidden="true"></span>status: deployed</span>
 					</div>
-				</article>
-
-				<!-- Material Selection -->
-				<article class="project reveal">
-					<a class="project__media" href="https://www.materialselection.somee.com" target="_blank" rel="noopener">
-						<span class="project__tag">Live</span>
+					<a class="prj__media" href="https://www.materialselection.somee.com" target="_blank" rel="noopener" aria-label="Open Material Selection System live demo">
 						<img src="images/material.jpg" alt="Material Selection System screenshot" loading="lazy" />
 					</a>
-					<div class="project__body">
+					<div class="prj__body">
 						<h3>Material Selection System</h3>
 						<p>A web app that helps engineers pick optimal materials for design projects based on constraints (load, thermal, weight) and objectives (min mass, max stiffness), with comparison charts for better decisions.</p>
-						<div class="project__tech">
-							<span>C# / ASP.NET</span><span>Plotly</span><span>Tabulator</span><span>MSSQL</span>
-						</div>
-						<div class="project__links">
-							<a href="https://www.materialselection.somee.com" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i> Live Demo</a>
+						<p class="prj__deps">deps = [ <span class="tok">C# / ASP.NET</span>, <span class="tok">Plotly</span>, <span class="tok">Tabulator</span>, <span class="tok">MSSQL</span> ]</p>
+						<div class="prj__links">
+							<a href="https://www.materialselection.somee.com" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-ext"/></svg> Live demo</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- Chicago Crime -->
-				<article class="project reveal">
-					<a class="project__media" href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener">
-						<span class="project__tag">Data Analysis</span>
+				<!-- PRJ-003 · Blood Management -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-003</span>
+						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
+					</div>
+					<a class="prj__media" href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener" aria-label="Open Blood Management System source">
+						<img src="images/bloodmanagement.png" alt="Blood Management System screenshot" loading="lazy" />
+					</a>
+					<div class="prj__body">
+						<h3>Blood Management System</h3>
+						<p>An API-driven web application for managing blood donor information with full CRUD operations. The frontend talks directly to API endpoints for smooth, real-time data management.</p>
+						<p class="prj__deps">deps = [ <span class="tok">C# / ASP.NET</span>, <span class="tok">jQuery</span>, <span class="tok">AJAX</span>, <span class="tok">MSSQL</span> ]</p>
+						<div class="prj__links">
+							<a href="https://github.com/fh-juhas/BloodManagement" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
+						</div>
+					</div>
+				</article>
+
+				<!-- PRJ-004 · Chicago Crime -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-004</span>
+						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
+					</div>
+					<a class="prj__media" href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener" aria-label="Open Chicago crime analysis source">
 						<img src="images/chicago.jpg" alt="Chicago crime data analysis" loading="lazy" />
 					</a>
-					<div class="project__body">
+					<div class="prj__body">
 						<h3>Chicago Crime Data Analysis</h3>
 						<p>An extensive analysis of the Chicago crime dataset using advanced SQL queries and sub-queries — uncovering crime trends, socio-economic correlations, and data-driven prevention recommendations.</p>
-						<div class="project__tech">
-							<span>Python</span><span>SQLite</span><span>SQL</span>
-						</div>
-						<div class="project__links">
-							<a href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						<p class="prj__deps">deps = [ <span class="tok">Python</span>, <span class="tok">SQLite</span>, <span class="tok">SQL</span> ]</p>
+						<div class="prj__links">
+							<a href="https://github.com/fh-juhas/Database-quering-using-Sqlite-and-Python-on-Chicago-datasets" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- SQL Sales -->
-				<article class="project reveal">
-					<a class="project__media" href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener">
-						<span class="project__tag">Data Analysis</span>
+				<!-- PRJ-005 · SQL Sales -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-005</span>
+						<span class="st is-src"><span class="dot-live" aria-hidden="true"></span>status: source</span>
+					</div>
+					<a class="prj__media" href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener" aria-label="Open SQL sales analysis source">
 						<img src="images/sql.png" alt="SQL sales and production analysis" loading="lazy" />
 					</a>
-					<div class="project__body">
+					<div class="prj__body">
 						<h3>SQL Data Analysis — Sales &amp; Production</h3>
 						<p>Comprehensive analysis of sales and production datasets via advanced SQL — surfacing top stores, popular products, revenue drivers by category, and per-customer order metrics to inform strategy.</p>
-						<div class="project__tech">
-							<span>SQL</span><span>Data Modeling</span>
-						</div>
-						<div class="project__links">
-							<a href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener"><i class="bi bi-github"></i> Source</a>
+						<p class="prj__deps">deps = [ <span class="tok">SQL</span>, <span class="tok">Data Modeling</span> ]</p>
+						<div class="prj__links">
+							<a href="https://github.com/fh-juhas/SQL-Data-Analysis-on-Sales-and-Production" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-github"/></svg> Source</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- T20 World Cup -->
-				<article class="project reveal">
-					<a class="project__media" href="images/t20wc.pdf" target="_blank" rel="noopener">
-						<span class="project__tag">Power BI</span>
+				<!-- PRJ-006 · T20 World Cup -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-006</span>
+						<span class="st is-doc"><span class="dot-live" aria-hidden="true"></span>status: report</span>
+					</div>
+					<a class="prj__media" href="images/t20wc.pdf" target="_blank" rel="noopener" aria-label="Open T20 World Cup dashboard report">
 						<img src="images/t20wc.jpg" alt="ICC T20 World Cup 2024 batsman dashboard" loading="lazy" />
 					</a>
-					<div class="project__body">
+					<div class="prj__body">
 						<h3>ICC T20 World Cup 2024 — Batsman Dashboard</h3>
 						<p>An in-depth Power BI dashboard analyzing batsman performance across the 2024 ICC T20 World Cup — runs, strike rates, boundaries, fifties and hundreds — helping analysts spot top performers.</p>
-						<div class="project__tech">
-							<span>Power BI</span><span>DAX</span><span>Data Viz</span>
-						</div>
-						<div class="project__links">
-							<a href="images/t20wc.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> View Report</a>
+						<p class="prj__deps">deps = [ <span class="tok">Power BI</span>, <span class="tok">DAX</span>, <span class="tok">Data Viz</span> ]</p>
+						<div class="prj__links">
+							<a href="images/t20wc.pdf" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-doc"/></svg> View report</a>
 						</div>
 					</div>
 				</article>
 
-				<!-- Olympic -->
-				<article class="project reveal">
-					<a class="project__media" href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener">
-						<span class="project__tag">Power BI</span>
+				<!-- PRJ-007 · Olympic -->
+				<article class="prj reveal">
+					<div class="prj__bar">
+						<span class="pid">PRJ-007</span>
+						<span class="st is-doc"><span class="dot-live" aria-hidden="true"></span>status: report</span>
+					</div>
+					<a class="prj__media" href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener" aria-label="Open Olympic 2024 dashboard report">
 						<img src="images/olympic2024.jpg" alt="Olympic 2024 medals and economic dashboard" loading="lazy" />
 					</a>
-					<div class="project__body">
+					<div class="prj__body">
 						<h3>2024 Olympic Medals &amp; Economic Analysis</h3>
 						<p>A Power BI dashboard exploring the link between Olympic medal counts and national economic status — medals by country, population/GDP comparisons, and GDP-vs-medals correlation.</p>
-						<div class="project__tech">
-							<span>Power BI</span><span>DAX</span><span>Data Viz</span>
-						</div>
-						<div class="project__links">
-							<a href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener"><i class="bi bi-file-earmark-pdf"></i> View Report</a>
+						<p class="prj__deps">deps = [ <span class="tok">Power BI</span>, <span class="tok">DAX</span>, <span class="tok">Data Viz</span> ]</p>
+						<div class="prj__links">
+							<a href="images/Olympic2024_Medals%26Economic.pdf" target="_blank" rel="noopener"><svg class="ic ic--sm"><use href="#i-doc"/></svg> View report</a>
 						</div>
 					</div>
 				</article>
@@ -182,33 +215,36 @@
 	</section>
 
 	<!-- CTA -->
-	<section class="section section--alt">
+	<section class="sec sec--tint cta-band">
 		<div class="container">
-			<div class="section__head reveal">
+			<div class="sec__head reveal">
+				<p class="q" style="text-align:center"><span class="cmt">-- full history lives on GitHub</span></p>
 				<h2>Want to see more?</h2>
 				<p>My full code history lives on GitHub — and I'm always happy to walk through any project.</p>
-				<div class="hero__cta" style="justify-content:center;margin-top:1.4rem">
-					<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" class="btn btn--primary"><i class="bi bi-github"></i> View GitHub</a>
-					<a href="others.html" class="btn btn--ghost"><i class="bi bi-send"></i> Get in Touch</a>
+				<div class="hero__cta">
+					<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" class="btn btn--primary"><svg class="ic ic--sm"><use href="#i-github"/></svg> View GitHub</a>
+					<a href="others.html" class="btn btn--ghost"><svg class="ic ic--sm"><use href="#i-send"/></svg> Get in touch</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
+	</main>
+
 	<!-- Footer -->
 	<footer class="footer">
 		<div class="container">
-			<p>&copy; <span id="year">2026</span> Faked Hasan Juhas. All rights reserved.</p>
+			<p class="footer__log">-- &copy; <span data-year>2026</span> Faked Hasan Juhas &middot; Chittagong, BD &middot; all queries welcome</p>
 			<div class="socials">
-				<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" title="GitHub"><i class="bi bi-github"></i></a>
-				<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-				<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" title="LeetCode"><i class="bi bi-code-slash"></i></a>
-				<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" title="X"><i class="bi bi-twitter-x"></i></a>
+				<a href="https://github.com/fh-juhas" target="_blank" rel="noopener" aria-label="GitHub"><svg class="ic"><use href="#i-github"/></svg></a>
+				<a href="https://www.linkedin.com/in/fh-juhas/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic"><use href="#i-linkedin"/></svg></a>
+				<a href="https://leetcode.com/u/fh_juhas" target="_blank" rel="noopener" aria-label="LeetCode"><svg class="ic"><use href="#i-code"/></svg></a>
+				<a href="https://x.com/FH_Juhas" target="_blank" rel="noopener" aria-label="X"><svg class="ic ic--fill"><use href="#i-x"/></svg></a>
 			</div>
+			<p class="footer__colophon">Set in Bricolage Grotesque, Hanken Grotesk &amp; Martian Mono. Hand-coded — no frameworks, no trackers.</p>
 		</div>
 	</footer>
 
-	<button id="topBtn" title="Back to top"><i class="bi bi-arrow-up"></i></button>
 	<script src="assets/js/app.js"></script>
 </body>
 </html>
